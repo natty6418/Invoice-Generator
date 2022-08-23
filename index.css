@@ -1,0 +1,268 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #1F2937;
+    font-family: 'Arial';
+    width: 550px;
+    height: 719px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    /* or 100% */
+    text-align: center;
+    color: #F5F5F5;
+}
+
+#container {
+    margin: 0;
+    padding: 0;
+    position:absolute;
+    background: #3A69D2;
+    width: 100%;
+    height: 190px;
+    left: 0px;
+    top: 0px;
+}
+#button_group{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    height: 45px;
+    top: 231px;
+    text-align: center;
+    
+}
+#line {
+    position: absolute;
+    width: 471px;
+    height: 0px;
+    left: 179px;
+    top: 498px;
+    border: 0.5px solid #C3C6DB;
+    margin-top: 10px;
+}
+h1{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+h2 {
+    position: absolute;
+    width: 95px;
+    height: 22px;
+    left: 149px;
+    top: 319px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+    margin: 20px;
+    color: #D5D4D8;
+}
+h3 {
+    position: absolute;
+    width: 78px;
+    height: 22px;
+    left: 542px;
+    top: 323px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: right;
+    color: #D5D4D8;
+}
+h4 {
+    position: absolute;
+    width: 95px;
+    height: 28px;
+    left: 149px;
+    top: 509px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 32px;
+    color: #D5D4D8;
+    text-align: left;
+    margin: 20px;
+}
+h5 {
+    position: absolute;
+    width: 105px;
+    height: 28px;
+    left: 515px;
+    top: 509px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 32px;
+    text-align: right;
+    color: #D5D4D8;
+}
+#acknowledgement {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#tasks {
+    position: relative;
+    height: 21px;
+    left: 149px;
+    top: 360px;
+    margin: 20px;
+    text-align: left;
+}
+#price-wash {
+    position: absolute;
+    width: 71px;
+    height: 21px;
+    left: 551px;
+    top: 361px;
+    text-align: right;
+}
+#price-mow {
+    position: absolute;
+    width: 71px;
+    height: 21px;
+    left: 551px;
+    top: 406px;
+    text-align: right;
+}
+#price-pull {
+    position: absolute;
+    width: 71px;
+    height: 21px;
+    left: 551px;
+    top: 450px;
+    text-align: right;
+
+}
+#price-total {
+    position: absolute;
+    width: 105px;
+    height: 28px;
+    left: 515px;
+    top: 535px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 32px;
+    text-align: right;
+}
+#notes {
+    position: absolute;
+    width: 218px;
+    height: 15px;
+    left: 149px;
+    top: 553px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #F5F5F5;
+    margin: 20px;
+}
+
+#wash-btn {
+    margin-left: 10px;
+    padding: 9px 13px;
+    position: relative;
+    width: 143.17px;
+    height: 45px;
+    background: #D1D4F4;
+    border: 2px solid #D5D4D8;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #4A4E74;
+}
+#mow-btn {
+    margin-left: 10px;
+    padding: 9px 13px;
+    position: relative;
+    width: 142.11px;
+    height: 45px;
+    background: #D1D4F4;
+    border: 1px solid #D5D4D8;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #4A4E74;
+}
+
+#pull_weeds-btn {
+    margin-left: 10px;
+    padding: 9px 13px;
+    position: relative;
+    width: 143.17px;
+    height: 45px;
+    background: #D1D4F4;
+    border: 1px solid #D5D4D8;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #4A4E74;
+}
+#invoice-btn {
+    padding: 9px 17px 9px 15px;
+    position: absolute;
+    width: 473px;
+    height: 44px;
+    left: 148px;
+    top: 626px;
+    background: #3A69D2;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 7px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#remove_wash-btn{
+    position: absolute;
+    width: 31px;
+    height: 20px;
+    left: 271px;
+    top: 383px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 20px;
+    color: #D5D4D8;
+    background: #1F2937;
+    border: none;
+}
+#remove_mow-btn {
+    position: absolute;
+    width: 31px;
+    height: 20px;
+    left: 280px;
+    top: 424px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 20px;
+    color: #D5D4D8;
+    background: #1F2937;
+    border: none;
+}
+#remove_pull-btn {
+    position: absolute;
+    width: 31px;
+    height: 20px;
+    left: 283px;
+    top: 465px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 20px;
+    color: #D5D4D8;
+    background: #1F2937;
+    border: none;
+}
