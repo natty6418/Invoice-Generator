@@ -3,26 +3,53 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <div id="container">
+        <div class="container">
             <h1>Invoice Generator</h1>
             <p id="acknowledgement">Thanks for choosing GoodCorp, LLC!</p>  
         </div>
-        <div id="button_group">
+        <div class="button_group">
             <button id="wash-btn">Wash car: 10$</button>
             <button id="mow-btn">Mow Lawn: $20</button>
             <button id="pull_weeds-btn">Pull Weeds: $30</button>
         </div>
-        <h2>Task</h2>
-        <h3>Total</h3>
-        <p id="tasks">Wash Car</p> <button id="remove_wash-btn">Remove</button> <p id="price-wash">$0</p>
-        <p id="tasks">Mow Lawn</p> <button id="remove_mow-btn">Remove </button> <p id="price-mow">$0</p>
-        <p id="tasks">Pull Weeds</p> <button id="remove_pull-btn">Remove </button> <p id="price-pull">$0</p>
-        <div id="line"></div>
-        <h4>Notes</h4>
-        <h5>Total Amount</h5>
-        <p id="notes">We accept cash, credit card, or PayPal</p>
-        <p id="price-total">$</p> 
-        <button id="invoice-btn">Send invoice</button>
+        <div id="info-box">
+            <div style="display: flex; justify-content: center;">
+                <table>
+                    <tr>
+                        <td><h2>Task</h2></td>
+                        <td><h3>Total</h3></td>
+                    </tr>
+                    <tr>
+                        <td><p id="tasks">Wash Car</p><button id="remove_wash-btn">Remove</button></td>
+                        <td><p id="price-wash">$0</p></td>
+                    </tr>
+                    <tr>
+                        <td><p id="tasks">Mow Lawn</p> <button id="remove_mow-btn">Remove </button></td>
+                        <td><p id="price-mow">$0</p></td>
+                    </tr>
+                    <tr>
+                        <td><p id="tasks">Pull Weeds</p><button id="remove_pull-btn">Remove </button></td>
+                        <td><p id="price-pull">$0</p></td>
+                    </tr>
+                </table>
+            </div>
+            <div style="display: block; justify-content: center;">
+                <div id="line"></div>
+                <table >
+                    <tr>
+                        <td><h4>Notes</h4></td>
+                        <td><h5>Total Amount</h5></td>
+                    </tr>
+                    <tr>
+                        <td><p id="notes">We accept cash, credit card, or PayPal</p></td>
+                        <td><p id="price-total">$0</p></td>
+                    </tr>
+                </table>
+                <button id="invoice-btn">Send invoice</button>
+            </div>
+            
+        </div>
+        
         <!-- <button id="wash-btn">Wash car: 10$</button>
         <button id="lawn-btn">Mow Lawn: $20</button>
         <button id="pull_weeds-btn">Pull Weeds: $30</button> -->
